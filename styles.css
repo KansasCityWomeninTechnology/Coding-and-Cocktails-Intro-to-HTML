@@ -28,7 +28,7 @@
     border-radius: 0.2rem;
     border: solid 1px #aaa;
     text-align: center;
-    text-decoration: none;
+    text-decoration: underline;
     color: #555;
   }
   
