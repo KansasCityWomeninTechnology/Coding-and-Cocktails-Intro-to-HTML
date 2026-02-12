@@ -16,10 +16,16 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "ritwickdey.LiveServer"
-            ]
+                "yandeu.five-server",
+                "-github.copilot-chat"
+            ],
+            "settings": {
+                "github.copilot.enable": { "*": false },
+                "github.chat.agent.enabled": false,
+                "github.copilot.chat.agent.autoFix": false,
+                "github.copilot.inlineSuggest.enable": false,
+                "chat.commandCenter.enabled": false
+            }
         }
-    },
- 
-  }
-  
+    }
+}
